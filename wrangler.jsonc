@@ -1,0 +1,13 @@
+{
+  "name": "battery-link2",
+  "main": "src/index.js",
+  "compatibility_date": "2025-06-01",
+  "durable_objects": {
+    "bindings": [
+      { "name": "BATTERY", "class_name": "BatteryRoom" }
+    ]
+  },
+  "migrations": [
+    { "tag": "v1", "new_sqlite_classes": ["BatteryRoom"] }
+  ]
+}
